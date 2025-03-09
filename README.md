@@ -1,6 +1,7 @@
 # E-commerce Dashboard
 
 ## Setup Environment
+```
 pip install -r requirements.txt
 ```
 
