@@ -38,7 +38,7 @@ if page == "Overview":
     
     st.write("**Shape:**", datasets[dataset_options].shape)
     st.write("**Preview:**")
-    st.dataframe(datasets[dataset_options].head())
+    st.dataframe(datasets[dataset_options].head(10))
 
 elif page == "Orders Analysis":
     st.header("📦 Orders Analysis")
